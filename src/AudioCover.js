@@ -36,7 +36,15 @@ Ext.define('Ext.tux.AudioCover',{
          * The base CSS class used to render the component.
          * @accessor
          */
-        baseCls: 'x-tux-audiocover'
+        baseCls: 'x-tux-audiocover',
+
+        /**
+         * @cfg enableControls
+         * Hide the default browser controls because we are going
+         * to provide a custom UI to control the audio file.
+         * @accessor
+         */
+        enableControls: false
     
     },
     template: [
@@ -105,9 +113,6 @@ Ext.define('Ext.tux.AudioCover',{
         /* Set the handler on the cover element to show the back
          * face when the user tap on it. */
         me.coverEl.on('tap', 'showBack', me);
-
-        // Disable the audio controls
-        me.setEnableControls(false);
 
         // Initialize the Ext.Audio component
         me.callParent(arguments);
