@@ -1,0 +1,17 @@
+$base-color: #5b5b56;
+
+// Import all the Sencha Touch styles
+@import 'sencha-touch/default/all';
+
+// Include the required Sencha Touch widgets
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-toolbar;
+@include sencha-layout;
+@include sencha-msgbox;
+
+// Import all the sample app styles
+@import 'all';
+
+// Include the Ext.tux.AudioCover mixin
+@include sencha-tux-audiocover;

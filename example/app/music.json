@@ -1,0 +1,30 @@
+[
+	{
+	    "id": 1,
+	    "title": "Aerith Theme",
+	    "artist": "Final Fantasy VII",
+	    "cover": "http://1.bp.blogspot.com/-DELahQ67DH8/TZoQaGN7-0I/AAAAAAAABtc/XapEKld-xdE/s1600/final-fantasy-vii-cast.jpg",
+	    "audio": "http://ocr.blueblue.fr/files/music/remixes/Final_Fantasy_7_Aeris_Lives_OC_ReMix.mp3"
+	},
+	{
+	    "id": 2,
+	    "title": "JENOVA Celestial",
+	    "artist": "OC Remix",
+	    "cover": "http://images.fanpop.com/images/image_uploads/Final-Fantasy-VII-Set-2-final-fantasy-78707_1024_768.jpg",
+	    "audio": "http://ocr.blueblue.fr/files/music/remixes/Final_Fantasy_7_JENOVA_Celestial_OC_ReMix.mp3"
+	},
+	{
+	    "id": 3,
+	    "title": "Those Chosen By The Medly",
+	    "artist": "Trace Dragon XVI K",
+	    "cover": "http://lparchive.org/Final-Fantasy-VIII/1-FFVIII_Cover_Art.jpg",
+	    "audio": "http://ocremix.dreamhosters.com/files/music/remixes/Final_Fantasy_ThoseChosenByTheMedly_OC_ReMix.mp3"
+	},
+	{
+	    "id": 4,
+	    "title": "DeArmond Ashbory Bass",
+	    "artist": "Brock Frazier",
+	    "cover": "http://3.bp.blogspot.com/_upeOaClZkZk/SPEf-_CY7WI/AAAAAAAAAJE/FEkV0Rw4_lc/s400/My_Psytrance_First_CD_by_Cazeh-1.jpg",
+	    "audio": "http://www.largesound.com/ashborytour/sound/brobob.mp3"
+	}
+]

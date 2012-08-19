@@ -1,0 +1,135 @@
+/**
+ * @author Andrea Cammarata (@AndreaCammarata)
+ * @www http://www.andreacammarata.com
+ * Copyright(c) 2012 SIMACS di Andrea Cammarata
+ */
+
+/**
+ * Includes Ext.tux.AudioCover styles.
+ *
+ * @member Ext.tux.AudioCover
+ */
+@mixin sencha-tux-audiocover {
+
+    $size: 50px;
+    $margin: 5px;
+    $button-size: ($size * 40) / 100;
+    $button-icon-size: ($size * 15) / 100;
+
+    .x-tux-audiocover {
+
+        .x-flip-card {
+
+            width: $size;
+            height: $size;
+
+            -webkit-transform-style: preserve-3d;
+            -webkit-transition: -webkit-transform 1s;
+
+            .x-face {
+
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden;
+                border: solid 1px #d4d4d4;
+
+                &.x-front {
+                    background-size: 100% 100% !important;    
+                }
+
+                &.x-back {
+
+                    @include display-box;
+                    @include box-pack(center);
+                    @include box-align(center);
+
+                    -webkit-transform: rotateY(180deg);
+                    -webkit-box-sizing: border-box;
+                    background-color: #d4d4d4;
+
+                    .x-button {
+
+                        @include border-radius($size);
+                        min-height: $button-size;
+                        width: $button-size;
+                        height: $button-size;
+
+                        .x-button-icon {
+
+                            width: $button-icon-size;
+                            height: $button-icon-size;
+                            -webkit-mask-size: $button-icon-size;
+                            -webkit-mask-repeat: no-repeat;
+                            margin: 1px -3px;
+                            background: #4F4F4F;
+
+                        }
+
+                    }
+                    
+                    .x-progress, .x-progress .x-slice, .x-progress .x-slice div {
+
+                        @include border-radius($size / 2);
+
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: $size - ($margin * 2);
+                        height: $size - ($margin * 2);
+    
+                    }
+
+                    .x-progress {
+
+                        @include display-box;
+                        @include box-pack(center);
+                        @include box-align(center);
+
+                        margin: $margin;
+                        background-color: #FFF;
+                        border: solid 1px #BBB;
+                        -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+
+                        .x-slice {
+
+                            &.x-half {
+
+                                clip: rect(0px, $size, $size, $size / 2 - $margin);
+                                div {
+                                    clip: rect(0px, $size / 2 - $margin , $size, 0);
+                                    @include rotate(0deg);
+                                }                
+
+                            }
+
+                            &.x-end {
+
+                                clip: rect(0px, $size / 2 - $margin, $size, 0);
+                                div {
+                                    clip: rect(0, $size / 2 - $margin , $size, 0);
+                                    @include rotate(180deg);
+                                }
+
+                            }
+
+                            div {
+                                background-color: #3f89ee;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+    
+    @include pictos-iconmask('stop');
+    @include sencha-button-ui('white', #FFF);
+
+}
