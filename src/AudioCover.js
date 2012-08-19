@@ -213,8 +213,8 @@ Ext.define('Ext.tux.AudioCover',{
         }
 
         // Rotate the slices to simulate to syncronize the progress
-        this.slice1.setStyle('-webkit-transform', Ext.String.format('rotate({0}deg)', deg1));
-        this.slice2.setStyle('-webkit-transform', Ext.String.format('rotate({0}deg)', deg2));
+        this.slice1.setStyle('-webkit-transform', Ext.String.format('rotateZ({0}deg)', deg1));
+        this.slice2.setStyle('-webkit-transform', Ext.String.format('rotateZ({0}deg)', deg2));
     
     },
 
