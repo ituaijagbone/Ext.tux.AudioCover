@@ -45,9 +45,9 @@ Ext.define('Sample.view.AudioListItem', {
          */
         title: {
             cls: 'x-track-info',
-            tpl: [
+            tpl: [ 
                 '<div class="title">{title}</div>',
-                '<div class="artist">{artist}</div>',
+                '<div class="artist">{artist}</div>'
             ]
         },
 

@@ -1,30 +1,72 @@
 [
 	{
 	    "id": 1,
-	    "title": "Aerith Theme",
-	    "artist": "Final Fantasy VII",
-	    "cover": "http://1.bp.blogspot.com/-DELahQ67DH8/TZoQaGN7-0I/AAAAAAAABtc/XapEKld-xdE/s1600/final-fantasy-vii-cast.jpg",
-	    "audio": "http://ocr.blueblue.fr/files/music/remixes/Final_Fantasy_7_Aeris_Lives_OC_ReMix.mp3"
+	    "title": "Take A Bow",
+	    "artist": "Rihanna",
+	    "cover": "resources/images/cd-covers/take-a-bow.jpeg",
+	    "audio": "http://home.no/hamed2ganja12/Single/Rihanna%20-%20Take%20A%20Bow%20%28www.Iran2Music.Org%29.mp3"
 	},
 	{
 	    "id": 2,
-	    "title": "JENOVA Celestial",
-	    "artist": "OC Remix",
-	    "cover": "http://images.fanpop.com/images/image_uploads/Final-Fantasy-VII-Set-2-final-fantasy-78707_1024_768.jpg",
-	    "audio": "http://ocr.blueblue.fr/files/music/remixes/Final_Fantasy_7_JENOVA_Celestial_OC_ReMix.mp3"
+	    "title": "Ridin' Solo",
+	    "artist": "Jason Derulo",
+	    "cover": "resources/images/cd-covers/ridin-solo.jpeg",
+	    "audio": "http://ms11.cyworld.com.cn/d044/2010/05/01/167/1272686567306986_file.mp3"
 	},
 	{
 	    "id": 3,
-	    "title": "Those Chosen By The Medly",
-	    "artist": "Trace Dragon XVI K",
-	    "cover": "http://lparchive.org/Final-Fantasy-VIII/1-FFVIII_Cover_Art.jpg",
-	    "audio": "http://ocremix.dreamhosters.com/files/music/remixes/Final_Fantasy_ThoseChosenByTheMedly_OC_ReMix.mp3"
+	    "title": "Hero",
+	    "artist": "Nickelback",
+	    "cover": "resources/images/cd-covers/hero.jpeg",
+	    "audio": "http://api.ning.com/files/hXzO1QWnGr6ZgtB05IbaLW5IId7mjLPvOMGA0I8JHY*u*ZMCrczyw*XZrimUE7XQHFHgOLWa2b8s0xGfoHg5nRs-J84KlSGO/NickelBackHeroSpidermanTheme.mp3"
 	},
 	{
 	    "id": 4,
-	    "title": "DeArmond Ashbory Bass",
-	    "artist": "Brock Frazier",
-	    "cover": "http://3.bp.blogspot.com/_upeOaClZkZk/SPEf-_CY7WI/AAAAAAAAAJE/FEkV0Rw4_lc/s400/My_Psytrance_First_CD_by_Cazeh-1.jpg",
-	    "audio": "http://www.largesound.com/ashborytour/sound/brobob.mp3"
+	    "title": "My Favourite Game",
+	    "artist": "The Cardigans",
+	    "cover": "resources/images/cd-covers/my-favourite-game.jpeg",
+	    "audio": "http://ngamer.speedrunwiki.com/07themes/Neo.mp3"
+	},
+	{
+	    "id": 5,
+	    "title": "Erase/Rewind",
+	    "artist": "The Cardigans",
+	    "cover": "resources/images/cd-covers/erase-rewind.jpeg",
+	    "audio": "http://postmusic.org/music/Cardigans%20-%20Erase%20Rewind.mp3"
+	},
+	{
+	    "id": 6,
+	    "title": "Torn",
+	    "artist": "Natalie Imbruglia",
+	    "cover": "resources/images/cd-covers/torn.jpeg",
+	    "audio": "http://postmusic.org/music/Cardigans%20-%20Erase%20Rewind.mp3"
+	},
+	{
+	    "id": 7,
+	    "title": "Nemo",
+	    "artist": "Nightwish",
+	    "cover": "resources/images/cd-covers/nemo.jpeg",
+	    "audio": "http://legacy.roadrunnerrecords.com/shared/downloads/Nightwish/Nightwish-Nemo.mp3"
+	},
+	{
+	    "id": 8,
+	    "title": "Northen Star",
+	    "artist": "Hole",
+	    "cover": "resources/images/cd-covers/northen-star.jpeg",
+	    "audio": "http://smoothncorrupt.com/hole%20-%20northern%20star.mp3"
+	},
+	{
+	    "id": 9,
+	    "title": "Amaranth",
+	    "artist": "Nightwish",
+	    "cover": "resources/images/cd-covers/amaranth.jpeg",
+	    "audio": "http://api.ning.com/files/-TI4uM2ffQigY-ru*5dL2afos2uE4YolXgnEuDRjL38dJRWYT5fwlITSLYWoi76zQN4YjQSpnk-l*666rFpGOA1-m9Lu2rYv/NightwishAmaranth.mp3"
+	},
+	{
+	    "id": 10,
+	    "title": "Time Of Your Life",
+	    "artist": "Green Day",
+	    "cover": "resources/images/cd-covers/time-of-your-life.jpeg",
+	    "audio": "http://foldedspace.org/files/Greenday%20-%20Time%20of%20Your%20Life.mp3"
 	}
 ]
